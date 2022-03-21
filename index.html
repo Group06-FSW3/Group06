@@ -97,8 +97,8 @@
 
   <!----------------- Movie  Section Start ------------------------->
   <section id="moviesearch">
-    <div class="container">
-      <div class="movie-wrapped  mt-3">
+    <div class="container-fluid p-0 m-0">
+      <div class="movie-wrapped">
         <div class="movie-search ">
           <h2 class="text-title">Find Your Favorite Movie Here </h2>
           <div class="searchbox-movie search-bar">
@@ -108,62 +108,42 @@
             </button>
           </div>
 
-          <div class="movie-result">
-            <h4 class="text-title">Your Search Result:</h4>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <!-- jika data tidak ada -->
-            <div id="no-result">
-
-            </div>
-
-            <div id="movie">
-              <div class="row justify-content-center">
-                <!-- MOVIE ITEM  -->
-                <div class="col-md-4 movie1">
-                  <div class="movie-item shadow mt-4" style="width: 18rem;">
-                    <img src="image/moviepict3.jpg" class="card-img-top img-style" alt="movie">
-                    <div class="card-body">
-                      <div class="movie-name mb-3">
-                        <h4>Harry Potter</h4>
-                      </div>
-                      <a href="#" class="detail-btn btn btn-primary mb-3">Detail</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- MOVIE ITEM  ENDS-->
-                <!-- MOVIE ITEM  -->
-                <div class="col-md-4 movie1">
-                  <div class="movie-item shadow mt-4" style="width: 18rem;">
-                    <img src="image/moviepict3.jpg" class="card-img-top img-style" alt="movie">
-                    <div class="card-body">
-                      <div class="movie-name mb-3">
-                        <h4>Harry Potter</h4>
-                      </div>
-                      <a href="#" class="detail-btn btn btn-primary mb-3">Detail</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- MOVIE ITEM  ENDS-->
-                <!-- MOVIE ITEM  -->
-                <div class="col-md-4 movie1">
-                  <div class="movie-item shadow mt-4" style="width: 18rem;">
-                    <img src="image/moviepict3.jpg" class="card-img-top img-style" alt="movie">
-                    <div class="card-body">
-                      <div class="movie-name mb-3">
-                        <h4>Harry Potter</h4>
-                      </div>
-                      <a href="#" class="detail-btn btn btn-primary mb-3">Detail</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- MOVIE ITEM  ENDS-->
-              </div>
-            </div>
+  <section id="movie">
+    <h4 class="text-center mt-2 mb-3">Your Search Result:</h4>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="result-movie" class="row">
+            <!-- result -->
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Detail Movie</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!------------------ Movie  Section end -------------------------->
 
 
