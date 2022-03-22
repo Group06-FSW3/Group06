@@ -169,4 +169,96 @@ body {
         width: 400px;
         font-size: 15px;
     }
+}.footer {
+    background: #D9534F;
+    padding-top: 70px;
+    height: 100%;
+}
+
+.footer-about {
+    margin-bottom: 30px;
+}
+
+.footer-about {
+    color: white;
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+.footer-widget {
+    margin-bottom:  30px;
+}
+
+.footer-widget h6 {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-widget ul li {
+    line-height: 36px;
+    list-style: none;
+}
+
+.footer-widget ul li a {
+    color: black;
+    font-size: 15px;
+}
+
+.footer-widget ul li a:hover {
+    color: black;
+}
+
+.footer-widget .footer-newslatter p{
+    color: black;
+}
+
+.footer-widget .footer-newslatter form{
+    position: relative;
+}
+
+.footer-widget .footer-newslatter form input {
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    background: transparent;
+    border: none;
+    padding: 15px 0;
+    border-bottom: 2px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.footer-widget .footer-newslatter form input::placeholder {
+    color: rgb(63, 61, 61);
+}
+.footer-widget .footer-newslatter form button {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+
+.footer-copyright-text{
+    border-top: 1px solid rgba(82, 77, 77, 0.1);
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-copyright-text p {
+    color: wheat;
+    margin-bottom: 0;
+}
+.footer-copyright-text i {
+    color: tomato;
 }
